@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{.title}}</title>
+  </head>
+  <body>
+    <h1>{{.title}}</h1>
+    <ul>
+      {{range $val := .data}}
+      <li>
+        <ul>
+          <li>Name: {{ .Name }}</li>
+          <li>Age: {{ .Age }}</li>
+        </ul>
+      </li>
+      <br />
+      {{else}} Invalid "struct" Users harus berupa array! {{end}}
+    </ul>
+  </body>
+</html>

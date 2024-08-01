@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: #141e27;
+}
+.wrapper{
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+.header a{
+    font-family:sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 40px;
+    float: left;
+}
+.menu{
+    float:right;
+
+}
+.nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    background: #141e27;
+    top: 0;
+    border-bottom: 5px solid #4fbdba;
+    z-index: 1;
+}
+.nav ul{
+    padding-left: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: underline;
+    overflow: hidden;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    padding: 0px 16px 0px 16px;
+    color: #ffffff;
+    font-weight:inherit;
+    text-align: center;
+}
+.nav ul li a:hover{
+    background: #4fbdba;
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+}
+.section{
+    margin: auto;
+    margin-right: 50px;
+    display: flex;
+}
+.judul .h2{
+    text-align: center;
+    padding-top: 10%;
+    margin-top: 45px;
+    color: #ffffff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+}
+.judul .h2 img{
+    height: 180px;
+    width: 200px;
+    border-radius: 50%;   
+}
+.h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .paragraf-judul{
+    text-align: center;
+    font-family: cursive;
+    margin: auto;
+    padding: 15px 40px 10px 90px;
+    color: #ffffff;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+.button{
+    float: center;
+}
+ .button a{
+    border-radius: 20px;
+    font-size: 20px;
+    width: 13%;
+    margin-left: 43%;
+    background: #4fbdba;
+    padding: 7px 10px 10px 15px;
+    color: white;
+    margin-bottom: -100px;
+}
+.button a:hover{
+    text-decoration: none;
+    background: #86c6f4;
+}
+.paragraf-satu{
+    color: #ffffff;
+    font-family: cursive;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.characters-1{
+    text-align: justify;
+    margin-left: 5%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.list-foto{
+    padding: 0;
+}
+.list-foto h4{
+    color:#4fbdba;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+span{
+    color: #ffffff;
+}
+.characters-1 img{
+    width: 70%;
+    height: 50%;
+}
+.list-foto .capt{
+    margin-top: 10px; /* Memberikan jarak atas */
+    color: #fff;
+    text-align:justify;
+    display: block;
+    width: 80%;
+    
+}
+.cerita{
+    width: 100%;
+}
+.cerita img{
+    width: 50%;
+    height: 450px;
+    display: block;    
+    margin: auto;
+    margin-bottom: 35px;
+}
+.h4-story{
+    color: #4fbdba;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.deskripsi-story{
+    margin-bottom: 10px;
+    color: cadetblue;
+    margin-top: 10px;
+    font-size: 19px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#contact{
+    margin-top: 20px;
+    background: #064663;
+    padding: 65px 0px 65px 0px ;
+}
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.footer-contact{
+    width: 20%;
+    margin: 0 auto;
+}
+.footer-contact h3{
+    color:#ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+p, p a{
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.copyright{
+    padding: 50px 0px 50px 0px;
+    width: 100%;
+    margin-top: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+@media only screen and (min-width: 321px) {
+    .wrapper{
+        width: 100%;
+        margin: auto;
+        position: relative;
+    }
+    .header a{
+        font-family:sans-serif;
+        font-weight: bold;
+        color: #fff;
+        font-size: 10px;
+        float: left;
+    }
+    .h4-story {
+        font-size: 20px;
+    }
+    .deskripsi-story {
+        font-size: 16px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    #contact {
+        padding: 30px 0;
+    }
+    .footer-contact h3 {
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 5px;
+    }
+    p, p a {
+        font-size: 16px;
+    }
+    .copyright {
+        padding: 30px 0;
+    }
+}
+

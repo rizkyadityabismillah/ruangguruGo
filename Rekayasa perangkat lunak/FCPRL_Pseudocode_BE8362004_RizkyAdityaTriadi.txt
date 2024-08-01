@@ -1,0 +1,44 @@
+Algoritma order makanan/minuman via online
+
+
+START
+
+Read and write shoppe
+Open app shoppe
+
+choice menu and press shoppefood
+if " ingin beli makanan atau minuman"
+print " makanan atau minuman"
+else if "tidak beli"
+print "kembali menu utama"
+
+while "pembeli bingung"
+Print "pilih makanan atau minuman"
+Do
+Read masukan_pilihan
+if masukan_pilihan is makanan then
+print "membeli makanan"
+if else masukan_pilihan is minuman then 
+print "membeli minuman" 
+else "belum memilih"
+print "maaf anda belum memilih"
+
+press button "Tambahkan makanan atau minuman yang dipilih"
+print "bayar or batal"
+
+if bayar then 
+  press button bayar "Dana" or
+  press button bayar "Rekening bank"
+else if batal then
+print "kembali ke menu utama"
+
+
+press button bayar 
+print "konfirmasi pesan"
+
+END
+ 
+
+
+
+

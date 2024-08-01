@@ -1,0 +1,1 @@
+Jangan lupa di rubah sedikit codenya agar tidak terdeteksi plagiatrisme
